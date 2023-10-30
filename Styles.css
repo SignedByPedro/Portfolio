@@ -98,3 +98,20 @@ a {
   border: 2px solid black;
   border-color: var(--color-primary);
 }
+@media (max-width: 1279px) {
+  header h1 {
+    font-size: 24px;
+  }
+  nav a {
+    font-size: 16px;
+  }
+  h2 {
+    font-size: 24px;
+  }
+  .project h3 {
+    font-size: 20px;
+  }
+  .project p {
+    font-size: 16px;
+  }
+}
