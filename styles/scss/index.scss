@@ -1,6 +1,6 @@
-:root {
-  --color-primary: #ff8800;
-}
+@import "variables";
+@import "buttons";
+$color-primary: #ff8800;
 body,
 h1,
 h2,
@@ -16,7 +16,7 @@ body {
 }
 
 header {
-  background-color: var(--color-primary);
+  background-color: $color-primary;
   color: white;
   padding: 20px;
 }
@@ -50,13 +50,13 @@ section img {
   height: auto;
 }
 a {
-  color: var(--color-primary);
+  color: $color-primary;
   text-decoration: none;
 }
 .ButtonPrimary {
   display: inline-block;
   padding: 10px 20px;
-  background-color: var(--color-primary);
+  background-color: $color-primary;
   color: white;
   text-decoration: none;
   border-radius: 5px;
@@ -67,11 +67,11 @@ a {
 
 .ButtonPrimary:hover {
   transform: scale(1.5);
-  color: var(--color-primary);
+  color: $color-primary;
   background-color: white;
 }
 .ProfileImage {
-  border: 10px solid var(--color-primary);
+  border: 10px solid $color-primary;
 }
 @media (min-width: 600px) and (max-width: 700px) {
   body {
@@ -81,22 +81,22 @@ a {
 .ButtonSecondary {
   display: inline-block;
   padding: 5px 10px;
-  background-color: var(--color-primary);
+  background-color: $color-primary;
   color: #ffffff;
   border-radius: 5px;
   margin-bottom: 10px;
   border: 2px solid black;
-  border-color: var(--color-primary);
+  border-color: $color-primary;
 }
 .ButtonTertiary {
   display: inline-block;
   padding: 5px 10px;
   background-color: #ffffff;
-  color: var(--color-primary);
+  color: $color-primary;
   border-radius: 5px;
   margin-bottom: 10px;
   border: 2px solid black;
-  border-color: var(--color-primary);
+  border-color: $color-primary;
 }
 @media (max-width: 1279px) {
   header h1 {
