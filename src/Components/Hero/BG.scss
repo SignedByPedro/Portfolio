@@ -1,12 +1,12 @@
 :root {
-  --color-bg1: rgb(128, 128, 128); /* Gray */
-  --color-bg2: rgb(192, 192, 192); /* Silver */
-  --color1: 211, 211, 211; /* Light Gray */
-  --color2: 220, 220, 220; /* Gainsboro */
-  --color3: 245, 245, 245; /* White Smoke */
-  --color4: 255, 250, 250; /* Snow */
-  --color5: 255, 255, 255; /* White */
-  --color-interactive: 255, 255, 255; /* White */
+  --color-bg1: rgb(255, 255, 255);
+  --color-bg2: rgb(255, 250, 250);
+  --color1: 211, 211, 211;
+  --color2: 220, 220, 220;
+  --color3: 245, 245, 245;
+  --color4: 192, 192, 192;
+  --color5: 128, 128, 128;
+  --color-interactive: 0, 0, 0;
   --circle-size: 80%;
   --blending: hard-light;
 }
@@ -55,7 +55,6 @@
   background: linear-gradient(40deg, var(--color-bg1), var(--color-bg2));
   top: 0;
   left: 0;
-  z-index: 0;
 
   svg {
     display: none;
