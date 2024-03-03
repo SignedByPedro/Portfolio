@@ -1,16 +1,18 @@
-import React from "react";
+import React, { useRef } from "react";
 import { Flex } from "@chakra-ui/react";
-import BG from "../Components/Hero/BG";
 import Me from "../Components/Hero/Me";
 import Slider from "../Components/Hero/Slider";
+import Head from "../Components/Hero/Header/Head";
 
 function Hero() {
   return (
     <>
-      <BG />
-      <Me />
-      <Slider />
-      <Flex w={"100vw"} h={"100vh"} bg={"red"}></Flex>
+      <Flex w={"100vw"} h={"100vh"}>
+        <Head />
+        <Flex w={"100%"} h={"100%"} zIndex={0} bg={"lightgray"}></Flex>
+        <Me />
+        <Slider />
+      </Flex>
     </>
   );
 }

@@ -5,15 +5,15 @@ const Me = () => {
   return (
     <>
       <Flex
-        w={"100vw"}
-        h={"100vh"}
+        w={"100%"}
+        h={"100%"}
         align={"center"}
         direction={"column"}
         position={"absolute"}
         top={0}
       >
         <Image
-          src="../src/assets/Images/Me.png"
+          src="../src/assets/Images/Me.webp"
           alt="Me"
           zIndex="3"
           width="700px"
