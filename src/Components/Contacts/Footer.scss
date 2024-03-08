@@ -1,11 +1,12 @@
-.button {
-  top: 37%;
-  left: 15.3%;
+.buttonF {
+  bottom: 18%;
+  right: 5%;
   width: 230px;
   height: 230px;
+  z-index: 1;
   text-decoration: none;
-  background-color: #000000;
-  color: white;
+  background-color: lightgrey;
+  color: rgb(0, 0, 0);
   border-radius: 50%;
   position: absolute;
   display: flex;
@@ -21,10 +22,10 @@
   }
 }
 
-.SVG-Container {
+.SVG-f {
   position: absolute;
   z-index: 1;
-  left: 12.7%;
-  top: 35%;
-  pointer-events: none;
+  left: 100px;
+  bottom: 3%;
+  width: 13%;
 }

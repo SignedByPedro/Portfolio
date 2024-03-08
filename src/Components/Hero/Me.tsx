@@ -21,7 +21,7 @@ const Me = () => {
           position={"absolute"}
         />
         <Image
-          src="../src/assets/Images/wall-big.png"
+          src="../src/assets/Images/wall-big.webp"
           alt="Me"
           position="absolute"
           zIndex="2"

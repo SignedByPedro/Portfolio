@@ -1,11 +1,11 @@
 import React from "react";
-import { Flex, Image } from "@chakra-ui/react";
+import { Image } from "@chakra-ui/react";
 
 const Decoration = () => {
   return (
     <>
       <Image
-        src="../src/assets/Images/wall-small.png"
+        src="../src/assets/Images/wall-small.webp"
         alt="wall-small"
         zIndex="3"
         width="500px"
