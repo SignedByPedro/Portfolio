@@ -7,7 +7,6 @@ function Hero() {
   return (
     <>
       <Flex w={"100vw"} h={"100vh"}>
-        <Flex w={"100%"} h={"100%"} zIndex={0} bg={"lightgray"}></Flex>
         <Me />
         <Slider />
       </Flex>

@@ -1,7 +1,7 @@
 import { useState, useRef } from "react";
-import "./App.css";
 import MouseFollower from "../Components/Full/MouseFollower/MouseFollower";
 import { Flex } from "@chakra-ui/react";
+import Fonts from "../Fonts";
 import Head from "../Components/Hero/Header/Head";
 import Hero from "../Containers/Hero";
 import Introduction from "../Containers/Introduction";
@@ -15,6 +15,7 @@ function App() {
 
   return (
     <>
+      <Fonts />
       <Flex position={"absolute"} zIndex={2}>
         <MouseFollower stickyElement={stickyElement} />
       </Flex>

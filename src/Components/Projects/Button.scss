@@ -4,21 +4,21 @@
   width: 230px;
   height: 230px;
   text-decoration: none;
-  background-color: #000000;
-  z-index: 1;
-  color: white;
+  background-color: var(--dark);
+  color: var(--light);
   border-radius: 50%;
   position: absolute;
+  z-index: 1;
   display: flex;
   align-items: center;
   justify-content: center;
   cursor: pointer;
   p {
     margin: 0px;
-    font-size: 28px;
+    font-size: 15px;
     font-weight: 300;
     position: relative;
-    z-index: 1;
+    font-family: "Heading Font";
   }
 }
 

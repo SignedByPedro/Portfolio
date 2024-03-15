@@ -3,5 +3,11 @@ body {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
-  background-color: lightgrey;
+  background-color: var(--light);
+  max-width: 100vw;
+}
+
+:root {
+  --light: #faf3eb;
+  --dark: #351e10;
 }

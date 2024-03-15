@@ -7,24 +7,28 @@ import Button from "../Components/Projects/Button";
 
 const projects = [
   {
+    href: "",
     title: "Signed By",
     src: "SignedBy-Project.webp",
-    color: "#FFFFFF",
+    color: "var(--light)",
   },
   {
+    href: "https://overfrag-website.vercel.app/",
     title: "Overfrag",
     src: "Overfrag-Project.webp",
     color: "#000000",
   },
   {
+    href: "",
     title: "Barroca Endless South",
     src: "Barroca-Project.webp",
-    color: "#FFFFFF",
+    color: "var(--light)",
   },
   {
-    title: "Silencio",
-    src: "silencio.webp",
-    color: "#706D63",
+    href: "https://signedbypedro.github.io/CrossingGame/",
+    title: "Crossing Game",
+    src: "CrossingGame-Project.webp",
+    color: "#000000",
   },
 ];
 
@@ -36,12 +40,15 @@ function Projects() {
       <Box overflow={"hidden"}>
         <Box paddingTop={"20%"} paddingBottom={"10%"} position={"relative"}>
           {projects.map((project, index) => {
+            const isLast = index === projects.length - 1;
             return (
               <Project
                 index={index}
                 title={project.title}
+                href={project.href}
                 setModal={setModal}
                 key={index}
+                isLast={isLast}
               />
             );
           })}

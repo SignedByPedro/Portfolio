@@ -1,9 +1,9 @@
 import React from "react";
 import "./Projects.css";
 
-export default function index({ index, title, href, setModal, isLast }) {
+export default function index({ index, title, href, isLast }) {
   return (
-    <a href={href} target="_blank">
+    <a href={href}>
       <div
         onMouseEnter={() => {
           setModal({ active: true, index });
@@ -11,10 +11,9 @@ export default function index({ index, title, href, setModal, isLast }) {
         onMouseLeave={() => {
           setModal({ active: false, index });
         }}
-        className={`project ${isLast ? "lastProject" : ""}`}
+        className={`projectDrawer ${isLast ? "lastDrawerProject" : ""}`}
       >
         <h2>{title}</h2>
-        <p>Design & Development</p>
       </div>
     </a>
   );

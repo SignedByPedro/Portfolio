@@ -1,3 +1,7 @@
+a {
+  text-decoration: none;
+}
+
 .project {
   margin-left: 8%;
   display: flex;
@@ -5,12 +9,14 @@
   justify-content: space-between;
   align-items: center;
   padding: 20px 100px 20px 100px;
-  border-top: 1px solid rgb(0, 0, 0);
+  border-top: 1px solid var(--dark);
   cursor: pointer;
   transition: all 0.2s;
+  font-family: "Body Font";
+  color: var(--dark);
 }
-.project:last-of-type {
-  border-bottom: 1px solid rgb(0, 0, 0);
+.lastProject {
+  border-bottom: 1px solid var(--dark);
 }
 
 .project:hover {

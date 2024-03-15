@@ -1,0 +1,35 @@
+.projectDrawer {
+  margin: 0 700px 0 -100px;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 100px 40px 100px;
+  border-top: 1px solid var(--light);
+  font-family: "Body Font";
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.lastDrawerProject {
+  border-bottom: 1px solid var(--light);
+}
+
+.projectDrawer:hover {
+  opacity: 0.5;
+}
+
+.projectDrawer:hover h2 {
+  transform: translateX(-10px);
+}
+
+.projectDrawer:hover p {
+  transform: translateX(10px);
+}
+
+.projectDrawer h2 {
+  font-size: 40px;
+  margin: 0px;
+  font-weight: 400;
+  transition: all 0.4s;
+  color: var(--light);
+}

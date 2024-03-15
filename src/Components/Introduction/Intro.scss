@@ -4,8 +4,8 @@
   width: 230px;
   height: 230px;
   text-decoration: none;
-  background-color: #000000;
-  color: white;
+  background-color: var(--dark);
+  color: var(--light);
   border-radius: 50%;
   position: absolute;
   display: flex;
@@ -14,8 +14,9 @@
   cursor: pointer;
   p {
     margin: 0px;
-    font-size: 28px;
+    font-size: 15px;
     font-weight: 300;
+    font-family: "Heading Font";
     position: relative;
     z-index: 1;
   }

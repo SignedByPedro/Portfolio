@@ -7,7 +7,7 @@ const slide = keyframes`
 `;
 
 export default function Slider() {
-  const animation = `${slide} infinite 25s linear`;
+  const animation = `${slide} infinite 50s linear`;
   const array = Array.from({ length: 5 });
 
   return (
@@ -24,10 +24,10 @@ export default function Slider() {
           {array.map((item) => (
             <Flex direction="row" justify="center" align="center" gap="40px">
               <Text
-                fontFamily="heading"
+                fontFamily="Heading Font"
                 fontSize="100px"
                 mt="-2px"
-                color="black"
+                color="var(--dark)"
               >
                 {" "}
                 Designer / Full Stack Web Developer /
@@ -39,10 +39,10 @@ export default function Slider() {
           {array.map((item) => (
             <Flex direction="row" justify="center" align="center" gap="40px">
               <Text
-                fontFamily="heading"
+                fontFamily="Heading Font"
                 fontSize="100px"
                 mt="-2px"
-                color="black"
+                color="var(--dark)"
               >
                 {" "}
                 Designer / Full Stack Web Developer /

@@ -15,7 +15,7 @@ const Me = () => {
         <Image
           src="../src/assets/Images/Me.webp"
           alt="Me"
-          zIndex="3"
+          zIndex="4"
           width="700px"
           bottom={0}
           position={"absolute"}
@@ -24,10 +24,11 @@ const Me = () => {
           src="../src/assets/Images/wall-big.webp"
           alt="Me"
           position="absolute"
-          zIndex="2"
+          zIndex="3"
           width="800px"
           top={0}
           right={"50px"}
+          pointerEvents={"none"}
         />
       </Flex>
     </>

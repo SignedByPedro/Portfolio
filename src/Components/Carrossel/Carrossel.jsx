@@ -13,9 +13,9 @@ const Carrossel = () => {
 
   return (
     <Box
-      w={"80%"}
+      w={"83%"}
       position={"absolute"}
-      top={"50%"}
+      top={"49%"}
       left={"50%"}
       transform={"translate(-50%, -50%)"}
       overflow={"hidden"}

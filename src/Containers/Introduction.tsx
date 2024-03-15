@@ -6,7 +6,6 @@ function Introduction() {
   return (
     <>
       <Flex w={"100vw"} h={"85vh"} position={"relative"}>
-        <Flex w={"100%"} h={"100%"} zIndex={0} bg={"lightgray"}></Flex>
         <Intro />
       </Flex>
     </>
